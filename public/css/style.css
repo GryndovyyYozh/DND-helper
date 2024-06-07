@@ -1,0 +1,231 @@
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+main {
+   padding: 2em;
+   text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+#language-form {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#lang-select {
+   background-color: #4CAF50;
+   color: #fff;
+}
+
+input[type="submit"] {
+    background-color: white;
+            color: #333;
+}
+
+footer{
+    background-color: #3b5998;
+    color: #fff;
+    padding: 1em 0;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p{
+    color: #fff;
+        margin: 0;
+        padding: 0;
+}
+
+
+/*filter*/
+.filter-button {
+    position: fixed;
+    top: 100px;
+    right: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.filter-menu {
+    display: none;
+    position: fixed;
+    top: 120px;
+    right: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.filter-menu label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.filter-menu input[type="text"],
+.filter-menu select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.filter-menu input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.filter-menu input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*directory*/
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+.card-content {
+    padding: 20px;
+}
+.card-content h3 {
+    margin-top: 0;
+}
+.card-content p {
+    margin-bottom: 0;
+    color: #666;
+}
+
+.card-content {
+    overflow: hidden;
+    max-height: 50px;
+}
+.card.expanded .card-content{
+    max-height: 500px; 
+}
+/*рівень небезпеки*/
+
+.dangerLavel-button {
+    position: fixed;
+    top: 100px;
+    left: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.dangerLavel-menu {
+    display: none;
+    position: fixed;
+    top: 120px;
+    left: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dangerLavel-menu label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.dangerLavel-menu input[type="text"],
+.dangerLavel-menu select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.dangerLavel-menu input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.dangerLavel-menu input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+table{
+    position: fixed;
+    top: 150px;
+}
